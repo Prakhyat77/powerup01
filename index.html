@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navdrawer -->
+    <div id="fscr">
+        <i onclick="closet()" class="ri-close-line" style="text-decoration: none;" ></i>
+        <a onclick="closet()" href="#home">Home</a>
+        <a onclick="closet()" href="#about">About us</a>
+        <a onclick="closet()" href="#services">Our Services</a>
+        <a onclick="closet()" href="#gallery">Gallery</a>
+        <a onclick="closet()" href="#contactus">Contact Us</a>
+    </div>
+
+
+    <!-- Banner -->
+
+    <div class="banner" id="home">
+        <header>
+            <a href="#" class="logo">Logo</a>
+            <div class="toggle">
+                <a onclick="opent()" href="#">
+                    <i class="ri-menu-line"></i>
+                </a>
+            </div>
+        </header>
+        <video src="POWER up Final.mp4" muted loop autoplay></video>
+        <div class="content" >
+            <h2>Welcome to GYM</h2>
+        </div>
+    </div>
+
+
+    <!-- About -->
+
+    <div id="about">
+        <div class="about-img">
+            <h1>Powered by fitness & inspired by helping others</h1>
+            <h2></h2>
+            <img src="aboutus.jfif" alt="About-US">
+        </div>
+    </div>
+
+
+    <!-- Services -->
+
+    <section class="services" id="services">
+        <h2 class="heading" >Our Services</h2>
+        <div class="container">
+            <div class="serviceBx" >
+                <div class="front">
+                    <img src="exercise.jfif" alt="Exercise">
+                    <h2>Exercise</h2>
+                </div>
+            </div>
+            <div class="serviceBx" >
+                <div class="front">
+                    <img src="cardio.jpeg" alt="Cardio">
+                    <h2>Cardio</h2>
+                </div>
+            </div>
+            <div class="serviceBx" >
+                <div class="front">
+                    <img src="diet.jpeg" alt="Diet">
+                    <h2>Diet</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+
+
+    <div id="gallery">
+        <h1>Gallery</h1>
+        <div class="gallery-img">
+            <img src="POWER UP T.png" alt="">
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Contact -->
+
+    <section class="contact" id="contactus">
+        <div class="findus">
+            <h1 class="contHeading">Find Us</h1>
+            <p class="contText">
+                We are always ready to serve you. You can communicate us in following way.                
+            </p>
+            <a href="https://goo.gl/maps/4qCKdBemYaaQiZJX7"><i class="ri-map-pin-line">&nbsp;&nbsp;G-40 Kakda Abhinav Homes,Near SIRT 
+                College,Ayodhya Bypass Road</i></a>
+            <a href="tel:7024093220"><i class="ri-phone-line"></i>&nbsp;&nbsp;7024093220</a>
+            <a href="mailto:jha.prakhyat@gmail.com"><i class="ri-mail-line">&nbsp;&nbsp;jha.prakhyat@gmail.com</i></a>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d770.4636811729923!2d77.45365530628817!3d23
+            .280773530187947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c69934ff01b31%3A0x81d6c48025cab296!2sMov
+            oCode%20Limited!5e0!3m2!1sen!2sin!4v1617430967268!5m2!1sen!2sin" 
+             style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="contactBx">
+            <h1 class="contHeading">Let's connect!</h1>
+           <div class="form">
+               <div class="inputBx">
+                   <input type="text" name="" placeholder="Full Name">
+               </div>
+               <div class="inputBx">
+                   <input type="email" name="" placeholder="Email Address">
+               </div>
+               <div class="inputBx">
+                   <input type="text" name="" placeholder="Mobile No.">
+               </div>
+               <div class="inputBx">
+                   <textarea placeholder="Write your message here"></textarea>
+               </div>
+               <div class="inputBx">
+                <input type="submit" name="" value="Send">
+                </div>  
+           </div>
+        </div>          
+    </section>
+
+
+    <!-- footer -->
+
+    <section class="footer">
+        <p class="text">Design & Developed By Vuiron@2021</p>
+        <ul>
+            <p class="text">Follow us on:</p>
+            <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
+            <li><a href="#"><i class="ri-youtube-fill"></i></a></li>
+            <li><a href="#"><i class="ri-twitter-fill"></i></a></li>
+        </ul>
+    </section>
+
+    <!-- navdrawerJS -->
+    <script src="nav.js"></script>
+
+</body>
+</html>
